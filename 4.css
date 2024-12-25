@@ -1,0 +1,115 @@
+body{
+    background-color: #f8e9e2;
+}
+header{
+    background-color: #997766;
+    height:50px;
+    display: flex;
+    
+}
+main{
+    background-color: #f8e9e2;
+    width: 99%;
+    margin-left: 0.5%;
+}
+.header{
+    margin:0px;
+    margin-right: 15%;
+    color: #000000; 
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.header:hover{
+    background-color: #997766;
+}
+p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#030302;
+    background-color: #aa9999;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #0c0605;
+    background-color: #997766;
+}
+.sl {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+.slider ,.slider1 ,.slider2 {
+    position: relative;
+   /* float: left;*/
+    max-width: 300px;
+    
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 420px;
+}
+
+.slider-container ,.slider-container1 ,.slider-container2{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide ,.slide1 ,.slide2{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img ,.slide1 img ,.slide2 img{
+    width: 100%;
+    display: block;
+}
+
+.slider-btn ,.slider-btn1 ,.slider-btn2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f8e9e2;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.slider-btn:hover ,.slider-btn1:hover ,.slider-btn2:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slider-btn.prev ,.slider-btn.prev1 ,.slider-btn.prev2{
+    left: 2px;
+}
+
+.slider-btn.next ,.slider-btn.next1 ,.slider-btn.next2{
+    right: 2px;
+}
+.te{
+    position: absolute;
+    margin-top: 38%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: justify;
+}
+.au{
+    position: absolute;
+    margin-top: 38%;
+    margin-right: 2%;
+    margin-left: 68%; 
+    text-align: justify;
+}
+.sk{
+    position: absolute;
+    margin-top: 38%;
+    margin-right: 68%;
+    margin-left: 2%; 
+    text-align: justify;
+}
